@@ -19,9 +19,5 @@
 *   npm install
 *   npm run dev
 
-<br>
-<p>Para más información sobre el curso, visítalo en el siguiente enlace.</p>
-<hr>
-
 ### Curso 🔎 
 <a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a>
