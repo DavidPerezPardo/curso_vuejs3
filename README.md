@@ -1,6 +1,7 @@
 # Curso Vuejs 3 - Udemy 🎓
-### Introduccion:
+### Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
+<p>Se compone de un componente principal, y de distintos componentes a modo de práctica para los contenidos vistos en el curso
 <p>El proyecto se estructura en distintos componentes vue principales para poner en práctica los contenidos dados:</p>
 
 *   pokemons/App.js
