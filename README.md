@@ -39,6 +39,7 @@ Descargar o clonar repositorio:
 <p>Para cambiar de componente principal ( mini-aplicación ) del proyecto, lo haremos desde el archivo src/main.js, pasando como parámetro al método <code>createApp()</code> el nombre del componente principal que queramos montar:
 
 <code>
+  
     import { createApp } from 'vue'
 
     import Pokemon from '../pokemon/App.vue'
@@ -46,7 +47,9 @@ Descargar o clonar repositorio:
     import ....
     
     createApp(Microblog).mount('#app')
+    
 </code>
 
 ### Curso 🔎 
+
 <a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a>
