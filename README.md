@@ -1,5 +1,5 @@
 # Curso Vuejs 3 - Udemy 🎓 - En Curso...
-### Descripción:
+### 📜 Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
 
 <p>El proyecto se estructura en un archivo main.js, ( desde el cuál se importa 'vue' y los distintos componentes principales, librerías, etc.. )
