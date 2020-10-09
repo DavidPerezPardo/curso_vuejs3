@@ -1,9 +1,10 @@
 # Curso Vuejs 3 - Udemy 🎓
 ### Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
-<p>Se compone de un componente principal, y de distintos componentes a modo de práctica para los contenidos vistos en el curso
-<p>El proyecto se estructura en distintos componentes vue principales para poner en práctica los contenidos dados:</p>
 
+<p>El proyecto se estructura en un archivo main.js, y en distintos componentes vue principales, a modo de 'pequeñas aplicaciones', para poner en práctica los contenidos del curso:</p>
+
+*   src/main.js
 *   pokemons/App.js
 *   microblog/App.js
 
@@ -19,6 +20,12 @@
 *   npm init vite-app < project-name >
 *   npm install
 *   npm run dev
+
+<hr>
+
+### Instalación
+
+El archivo
 
 ### Curso 🔎 
 <a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a>
