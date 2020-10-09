@@ -1,4 +1,4 @@
-# Curso Vuejs 3 - Udemy 🎓
+# Curso Vuejs 3 - Udemy 🎓 - En Curso...
 ### Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
 
