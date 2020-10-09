@@ -19,6 +19,7 @@
 <p>Con npm:</p>
 
 *   npm init vite-app < project-name >
+*   cd <project-name>
 *   npm install
 *   npm run dev
 
