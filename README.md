@@ -14,7 +14,7 @@
 *   npm
 *   Vite
 
-<p>Vite es una herramienta para generar y compilar un proyecto en vuejs 3.</p>
+<strong>Vite es una herramienta para generar y compilar un proyecto en vuejs 3.</strong>
 
 <p>Con npm:</p>
 
