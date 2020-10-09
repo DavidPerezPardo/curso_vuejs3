@@ -14,7 +14,7 @@
 *   npm
 *   Vite
 
-<p>Vite es una herramienta para generar y compilar un proyecto en vuejs 3.</p>
+<strong>Vite es una herramienta para generar y compilar un proyecto en vuejs 3.</strong>
 
 <p>Con npm:</p>
 
@@ -38,7 +38,6 @@ Descargar o clonar repositorio:
 <p>Para cambiar de componente principal ( mini-aplicación ) del proyecto, lo haremos desde el archivo src/main.js, pasando como parámetro al método <code>createApp()</code> el nombre del componente principal que queramos montar:
 
 <code>
-    
     import { createApp } from 'vue'
 
     import Pokemon from '../pokemon/App.vue'
@@ -46,7 +45,6 @@ Descargar o clonar repositorio:
     import ....
     
     createApp(Microblog).mount('#app')
-
 </code>
 
 ### Curso 🔎 
