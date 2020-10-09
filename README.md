@@ -24,7 +24,7 @@
 
 <hr>
 
-### Instalación
+### ⚙ Instalación
 
 El archivo
 
