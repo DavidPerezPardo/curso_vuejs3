@@ -2,7 +2,7 @@
 ### Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
 
-<p>El proyecto se estructura en un archivo main.js,desde el cuál se importa 'vue' y los distintos componentes principales, librerías , etc. 
+<p>El proyecto se estructura en un archivo main.js, desde el cuál se importa 'vue' y los distintos componentes principales, librerías, etc. 
   Y en distintos componentes vue principales, a modo de 'pequeñas aplicaciones', para poner en práctica los contenidos del curso:</p>
 
 *   src/main.js
