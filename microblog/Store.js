@@ -1,5 +1,5 @@
 import { testPosts } from './testPosts';
-import { reactive } from 'vue';
+import { reactive, computed } from 'vue';
 
 class Store {
     
@@ -8,7 +8,24 @@ class Store {
         this.state  = reactive({
             posts: testPosts,
             currentHashtag: null
+
         });
+    }
+
+    // Getter for filtered posts by hashtag
+    get filteredPosts() {
+        
+        return computed(() => {
+
+            if(!this.state.currentHashtag) {
+                return this.state.posts
+            }
+    
+            return this.state.posts.filter(
+                post => post.hashtags.includes(this.state.currentHashtag)
+            )    
+        })
+        
     }
 
     setHashtag(tag) {

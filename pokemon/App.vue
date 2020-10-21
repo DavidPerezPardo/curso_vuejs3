@@ -31,7 +31,7 @@
         },
         // When the component is created,but isn't mounted (created in DOM)
         async created(){
-            console.log('Created');
+            console.log('created');
             this.starters = await this.fetchData(STARTER_IDS);
         },
         methods: {
@@ -57,7 +57,7 @@
                 this.selectedCard = pokemon.id;
                 this.evolutions = await this.fetchData([pokemon.id + 1, pokemon.id + 2]);
             }
-        }   
+        }
     }
     
 </script>

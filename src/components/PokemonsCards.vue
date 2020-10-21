@@ -1,7 +1,8 @@
 <template>
 
     <div class="cards">
-        <card v-for="pokemon in pokemons" 
+
+        <card v-for="pokemon in pokemons" :key="pokemon" 
             @click="pokemonClicked(pokemon)"
             :class="{ opace: selectedCard && pokemon.id !== selectedCard }"
             class="card">
@@ -42,6 +43,7 @@
                 type: Number
             }
         },
+
         methods: {
             pokemonClicked(pokemon) {
                 this.$emit('pokemonClicked', pokemon)
