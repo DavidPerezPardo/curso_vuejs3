@@ -1,4 +1,8 @@
 # Curso Vuejs 3 - Udemy 🎓 - En Curso...
+
+<p> 🔎 <a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a></p>
+<hr>
+
 ### 📜 Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
 
@@ -49,7 +53,3 @@ Descargar o clonar repositorio:
     createApp(Microblog).mount('#app')
     
 </code>
-
-### Curso 🔎 
-
-<a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a>
