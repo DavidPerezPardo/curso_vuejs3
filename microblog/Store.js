@@ -20,10 +20,18 @@ class Store {
             if(!this.state.currentHashtag) {
                 return this.state.posts
             }
-    
-            return this.state.posts.filter(
-                post => post.hashtags.includes(this.state.currentHashtag)
-            )    
+
+            let arr = [];
+            let self = this;
+            let check;
+
+            // Filtered by hashtags
+            this.state.posts.forEach( function (value) {
+                check = value.hashtags.some( el => el.search(self.state.currentHashtag) > -1)
+
+                check ? arr.push(value) : false;
+            })
+            return arr;
         })
         
     }
