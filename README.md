@@ -12,6 +12,7 @@
 *   src/main.js
 *   pokemons/App.js
 *   microblog/App.js
+*   router/App.js
 
 <p>Para crear el proyecto Vuejs y su scaffolding, he utilizado:</p>
 
