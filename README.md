@@ -1,4 +1,4 @@
-# Curso Vuejs 3 - Udemy 🎓 - En Curso...
+# Curso Vuejs 3 - Udemy 🎓
 
 <p> 🔎 <a href="https://www.udemy.com/course/complete-vuejs-3-crash-course-composition-api-vue-router-vuex/" target="_blank">Complete Vue.js 3 (Inc. Composition API, Vue Router, Vuex)</a></p>
 <hr>
