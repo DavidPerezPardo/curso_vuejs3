@@ -1,5 +1,8 @@
 <template>
-  This is the posts
+  <h1>Posts</h1>
+    <div>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>

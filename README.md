@@ -6,13 +6,14 @@
 ### 📜 Descripción:
 <p>Proyecto realizado con las prácticas que he ido haciendo mientras seguía el curso, con los distintos contenidos estudiados.</p>
 
-<p>El proyecto se estructura en un archivo main.js, ( desde el cuál se importa 'vue' y los distintos componentes principales, librerías, etc.. )
-  y en distintos componentes vue principales, a modo de 'pequeñas aplicaciones', para poner en práctica los contenidos del curso:</p>
+<p>El proyecto se estructura en un archivo main.js, ( desde el cuál se importa 'vue' y los distintos componentes principales, librerías, etc.. ), un index.html desde dónde se montará Vue, y en distintos componentes vue principales, a modo de 'pequeñas aplicaciones' para ejecutar el código de los distintos contenidos del curso:</p>
 
+*   public/index.html
 *   src/main.js
-*   pokemons/App.js
-*   microblog/App.js
-*   router/App.js
+*   pokemon/App.vue
+*   microblog/App.vue
+*   router/App.vue
+*   vuex/App.vue
 
 <p>Para crear el proyecto Vuejs y su scaffolding, he utilizado:</p>
 

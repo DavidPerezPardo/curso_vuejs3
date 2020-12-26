@@ -1,7 +1,9 @@
-import { createRouter, createWebHistory } from '../node_modules/vue-router/dist/vue-router.esm-browser'
+import { createRouter, createWebHistory } from '../node_modules/vue-router/dist/vue-router.esm-browser';
 
-import Hello from './Hello.vue'
-import Posts from './Posts.vue'
+// components
+import Hello from './Hello.vue';
+import Posts from './Posts.vue';
+import Post from './Post.vue';
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -14,7 +16,14 @@ export const router = createRouter({
         {
             name: 'posts',
             path: '/posts',
-            component: Posts
+            component: Posts,
+            children: [
+                {
+                    name: 'post',
+                    path: ':id',
+                    component: Post
+                }
+            ]
         }
     ]
 })
