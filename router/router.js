@@ -20,10 +20,10 @@ export const router = createRouter({
             children: [
                 {
                     name: 'post',
-                    path: ':id',
+                    path: '/:id',
                     component: Post
                 }
             ]
-        }
+        },
     ]
 })

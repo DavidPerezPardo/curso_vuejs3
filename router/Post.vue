@@ -3,7 +3,6 @@
     <p>
         Content:
     </p>
-    <router-view></router-view>
 
 </template>
 

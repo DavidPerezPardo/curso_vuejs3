@@ -4,7 +4,6 @@
     <router-link to="hello">Hello </router-link>
     <router-link to="posts">Posts </router-link>
     <router-link to="posts/1">Un post </router-link>
-    <router-link to="ups!">Nothing exists </router-link>
 
     <div>
         <router-view></router-view>
